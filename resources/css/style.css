@@ -1,0 +1,483 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: 16px;
+}
+body {
+    background-color:whitesmoke;
+    font-family: 'Piazzolla', serif;
+    margin: 0px;
+}
+/* head Section */
+header {
+    width: 100%;
+    height: 64px;
+    background-color: whitesmoke;
+    margin-top: 0px; 
+}
+.phone {
+    display: none;
+}
+
+header  img, header h3 {
+    height: 32px;
+    margin-bottom: 16px;
+    margin-top: 16px;
+    float: left;
+    font-size: 24px;
+    color: #14342b;
+}
+span#no {
+    color: #909590;
+    font-weight: 300;
+}
+header img {
+    margin-left: 24px;
+}
+nav {
+    margin-right: 24px;
+    float: right;
+    text-align: center;
+}
+header li {
+    display: inline-block;
+    margin-left: 16px;
+    font-weight: 300;
+    font-size: 20px;
+}
+/* head Section */
+h1 {
+    font-size: 3rem;
+    color:  #14342b;
+    letter-spacing: 0.5px;
+}
+/* part one start */
+.one {
+    display: flex;
+    background-color: rgba(155, 155, 155, 0.2);
+}
+.one img {
+    max-width: 60%;
+    height: auto;
+    padding: 32px 24px;
+}
+.one article {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 64px;
+}
+.one h2 {
+    font-weight: 400;
+    color:  #14342b;
+    padding-bottom: 20px;
+}
+.start {
+    width: 90%;  
+    background-color: #14342b;
+    text-align: center;
+    padding: 8px;
+}
+.start h3 {
+    color: honeydew;
+    font-weight: 400;
+}
+
+/* part one end */
+/* part 2 start*/
+.two {
+    display: flex;
+    width: 100%;
+
+}
+.doesnt {
+    width: 60%;
+}
+.doesnt img {
+    width: 100%;
+    height: auto;
+    padding: 32px 24px;
+}
+.doesnt h1, p {
+    padding-top: 32px;
+    padding-bottom: 24px;
+    padding-left: 24px; 
+}
+ p {
+    color: #474a48;
+    font-weight: 400;
+} 
+.mobo {
+    display: none;
+}
+.lol { 
+    padding-bottom: 32px;
+} 
+.pres {
+    width: 40%;
+    display: inline-flex;
+    flex-direction: column;
+    padding-top: 16px;
+}
+.pa {
+    width: 100%;
+    display: inline-flex;
+    
+}
+.pic {
+    width: 35%;
+}
+.pic img {
+    width: 100%;
+    padding: 16px 16px;
+}
+.arti {
+    width: 65%;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.arti h3 {
+    padding-bottom: 8px;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    margin: 0px;
+    font-weight: 500;
+}
+.arti p {
+    padding-bottom: 8px;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    margin: 0px;
+    color: #474a48;
+    font-weight: 300;
+}
+.po {
+    padding-bottom: 0px;
+}
+.three {
+    display: flex;
+    flex-direction: column;
+    padding: 32px 72px;
+    background-color: rgba(155, 155, 155, 0.4);
+}
+.head {
+    margin: 0px; 
+    width: 100%;
+    text-align: center;
+}
+.sect {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 32px;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    color: #474a48;
+    font-weight: 400;
+}
+.parts {
+    margin-right: 16px;
+    background-color: #F1F2F6;
+    width: 24%;
+    margin-bottom: 16px;
+}
+.pict img {
+    height: auto;
+    width: 100%;
+    padding-bottom: 16px;
+}
+.bob h4{
+    padding: 0px;
+    padding-left: 16px;
+}
+.bob p {
+    line-height: 1.6;
+    padding: 0px;
+    margin: 0px;
+    padding-left: 16px;
+    padding-bottom: 24px;
+}
+.exhibitt {
+    width: 100%;
+    padding-top: 32px;
+    text-align: center;
+    margin: 0px;
+}
+.four {
+    display: flex;
+    width: 100%;
+}
+
+.bos {
+    width: 60%;
+    padding: 32px 24px;
+}
+.vid {
+    width: 100%;
+}
+.vid video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    padding-bottom: 24px;
+}
+.bos h4 {
+    padding: 0px;
+    padding-bottom: 8px;
+    margin: 0px;
+}
+.bos p {
+    padding: 0px;
+    margin: 0px;
+}
+.sid {
+    display: inline-flex;
+    flex-direction: column;
+    width: 40%;
+}
+.boxy {
+    display: flex;
+    width: 100%;
+    padding: to;
+}
+.pice  {
+    width: 35%;   
+}
+#rok {
+    padding-top: 16px;
+}
+.bow {
+    max-width: 100%;
+    height: auto;
+    padding: 16px 16px;
+}
+.mo {
+    width: 65%;
+    display: inline-flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+.mo h3 {
+    padding-bottom: 8px;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    margin: 0px;
+}
+.mo p {
+    padding-bottom: 8px;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    margin: 0px;
+    color: #474a48;
+    font-weight: 400;
+}
+.footer {
+    margin: 0px;
+    padding: 0px;
+}
+#num {
+    float: left;
+    padding-left: 24px;
+    padding-top: 16px;
+}
+#num1 {
+    float: right;
+    padding-right: 24px;
+    padding-top: 16px;
+}
+@media only screen and (max-width: 779px) {
+    header h3, header nav, .doesnt, .web,  .pict ,
+    .bob p , .four p, .four h4 , .sid {display: none;}
+
+    .phone , .mobo {display: block;}
+    * { box-sizing: border-box;}
+
+    header { 
+        width: 100%;
+        height: 64px;
+        margin: 0px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0px;
+
+    }
+    header img {
+        width: 8%;
+        height: auto;
+        padding: 0px;
+        margin: 0px;
+    }
+    .one {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        display: block;
+    }
+    .one img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0px;
+        padding: 0px;
+        padding-bottom: 32px;
+    }
+    .one article {
+        width: 100%;
+        padding-bottom: 32px;
+    }
+    .one h1 {
+        padding: 0px;
+        margin: 0px;
+        padding-bottom: 32px;
+        text-align: left;
+        letter-spacing: 0.2px;
+        font-size: 40px;
+        font-weight: 800;
+        padding-left: 16px;
+    }
+    .one h2 {
+        padding: 0px;
+        margin: 0px;
+        padding-bottom: 24px;
+        text-align: left;
+        font-weight: 600;
+        line-height: 1.4;
+        padding-left: 16px;
+        
+    }
+    .start {
+        width: 90%;
+        padding: 0px;
+        padding: 20px 0px;
+        margin: 0 auto;
+    }
+    .start h3 {
+        font-size: 24px;
+        padding: 0px;
+        margin: 0px;
+    }
+    .two {width: 100%;
+         margin: 0px;
+        padding: 0px;}
+    .pres {
+        display: flex;
+        width: 100%;
+        margin: 0px;
+        padding: 16px 16px;
+        flex-direction: column;}
+    .pa {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    .pic {
+        width: 100%;
+    }
+    .mobo {
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+    .arti h3 , .arti p {
+        padding: 0px;
+        margin: 0px;
+        padding-left: 16px;
+        padding-bottom: 8px;
+    }
+    .arti h3 {
+        font-weight: 560;
+        line-height: 1.4;
+        font-size: 24px;
+        color:  #474a48;
+    }
+    .arti p {
+        font-size: 12px;
+    }
+    .three {display: block;
+            width: 100%;
+            margin: 0px;
+            padding: 0px;
+            background-color:whitesmoke;}
+    .head {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        display: block;
+    }
+    .head h3 {
+        padding: 0px;
+        padding-top: 32px;
+        padding-bottom: 16px;
+    }
+    .sect {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0px;
+        padding-bottom: 16px;
+        align-items: space-around;
+
+    }
+    .parts {
+        width: 90%;
+        padding: 0px;
+        margin: 0px;
+        margin-bottom: 8px;
+        background-color: #DFE0E2;
+    }
+    .bob h4 {
+        padding: 0px;
+        padding-top: 16px;
+        padding-left: 16px;
+        padding-bottom: 24px;
+        font-size: 24px ;
+        margin: 0px;
+    }
+    .exhibitt {
+        margin: 0px;
+        padding: 32px 0px;
+    }
+    .four, .bos, .vid { display: block;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;}
+    .vid {
+        max-width: 100%;
+        height: auto;
+        margin: 0px;
+        padding: 0px;
+        padding-bottom: 24px;
+    }
+    .footer {
+        width: 100%;
+        float: left;
+    }
+    #num, #num1 {
+        display: inline-block;
+        margin: 0px;
+        
+        padding: 16px 0px;
+        font-size: 12px;
+    }
+
+
+
+
+
+
+}
+
+
+
+
+
